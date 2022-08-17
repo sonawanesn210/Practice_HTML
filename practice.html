@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- TODO a tag-->
+    <a href="https://www.interviewbit.com/technical-interview-questions/"> Visit interview bit</a>
+    <!--to open in new tab we  add  taget = "_blank"-->
+<br>
+    <a href="https://www.interviewbit.com/technical-interview-questions/" target="_blank" > Visit interview bit</a>
+<br>
+    <!-- to add tooltip  ==> means when we hover mouse  on that link we can see the massage which is passed inside title eg here we can see visit me-->
+    <a href="https://www.interviewbit.com/technical-interview-questions/" target="_blank" title="visit me" > Visit interview bit</a>
+
+<br>
+<hr>
+<!--to  add phone number-->
+<a href="tel:+91123456">1231456</a>
+<br>
+<!--to add email address -->
+<a href="mailto:swap@gmail.com"> swap@gmail.com</a>
+<br>
+<hr>
+<a href="javascript.pdf"> Download javascript que-ans</a>
+<br>
+<hr>
+<!--add image -->
+<h4>Non clikable image</h4>
+<img src="MyBook.jpg" alt="My book image">
+<br>
+<hr>
+<!--if there is error in src then only the altrenate path open -->
+<!--here we can directly add link of image also   AND we can also add height and width for this image-->
+<h4>Non clikable image</h4>
+<img src="https://images.rawpixel.com/image_800/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIyLTA1L3AtMzYxLWZlbGl4LXJ1c3NlbGwtNjRfMi5qcGc.jpg" alt="Beautiful rose" height="200" width="200">
+<br>
+<hr>
+
+
+<!--clikable images -->
+<h4>clikable image</h4>
+<a href="https://www.pexels.com/search/rose%20flower/" target="_blank"> <img src="https://images.rawpixel.com/image_800/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIyLTA1L3AtMzYxLWZlbGl4LXJ1c3NlbGwtNjRfMi5qcGc.jpga" alt="Beautiful rose" height="200" width="200"></a>
+<br>
+<hr>
+<!--webp image-->
+<h4>webp image</h4>
+<picture>
+    <!--webp is not supported in some browsers so then we get jpg format otherwise we will get webp formate (its size is much smaller than jpg)-->
+    <source srcset="pexels-lynda-sanchez-2300713 (1).webp">
+    <source srcset="pexels-lynda-sanchez-2300713 (1).jpg">
+    <img src="pexels-lynda-sanchez-2300713 (1).webp" alt="image path" height="200" width="200">
+
+<br>
+<hr>
+<h4>figure tag</h4>
+<figure>
+    <img src="pexels-lynda-sanchez-2300713 (1).jpg" alt="beautiful roses" height="200" width="200">
+    <figcaption>Beautiful roses picture</figcaption>
+</figure>
+</picture>
+</body>
+</html>
